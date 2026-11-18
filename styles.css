@@ -142,3 +142,11 @@ body{background-color:#07070b;background-image:radial-gradient(ellipse at 15% 5%
 @media(hover:none){.feature-card:hover{transform:none}.brand-visual:hover{box-shadow:none}}
 
 .hero-proxy-cta[aria-disabled="true"] { cursor: default; }
+.cta-caption .telegram-fallback { display: block; margin-left: 0; }
+.telegram-fallback a:not([hidden]) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  color: #d4c4ff;
+  text-decoration: underline;
+}

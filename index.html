@@ -7,8 +7,8 @@
   <meta name="description" content="XPN — система безопасного подключения с высокой скоростью. Узнайте больше и начните подключение в Telegram.">
   <title>XPN — безопасное подключение на высокой скорости</title>
   <link rel="icon" href="assets/xpn-icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261102-chips-globe">
-  <script src="app.js?v=20261118-proxy" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261118-telegram-fallback">
+  <script src="app.js?v=20261118-telegram-fallback" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">К содержимому</a>
@@ -32,7 +32,12 @@
           <a class="button hero-cta" href="tg://resolve?domain=XPN_PRIVATE_BOT&amp;start=ref2_lrEoGu3uK3rdLHQ8FIOT4Q">Начать с XPN <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 14-6-4 14-4-6-6-2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m11 14 8-8" stroke="currentColor" stroke-width="1.6"/></svg></a>
           <a class="button hero-proxy-cta" role="link" aria-disabled="true"><span class="proxy-label" aria-live="polite">Проверяем прокси…</span> <span aria-hidden="true">↗</span></a>
           </div>
-          <span class="cta-caption">Если Telegram не подключается, нажмите «Починить Telegram» и включите прокси.</span>
+          <span class="cta-caption">
+            Если Telegram не подключается, нажмите «Починить Telegram» и включите прокси.
+            <span class="telegram-fallback" aria-live="polite">
+              <a id="telegram-fallback" href="https://t.me/XPN_PRIVATE_BOT?start=ref2_lrEoGu3uK3rdLHQ8FIOT4Q" target="_blank" rel="noopener noreferrer" hidden>Открыть через t.me</a>
+            </span>
+          </span>
         </div>
         <div class="hero-grid" aria-hidden="true"></div>
         <div class="globe-scene" aria-hidden="true">
