@@ -146,7 +146,10 @@ body{background-color:#07070b;background-image:radial-gradient(ellipse at 15% 5%
 .telegram-fallback a:not([hidden]) {
   display: inline-flex;
   align-items: center;
-  min-height: 24px;
+  min-height: 44px;
+  padding-inline: 12px;
   color: #d4c4ff;
+  font-size: 16px;
+  font-weight: 700;
   text-decoration: underline;
 }
